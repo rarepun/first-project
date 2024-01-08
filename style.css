@@ -3,13 +3,38 @@ body {
     font-family: 'Lora', serif;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    background-image: url(http://ru.fishwallpapers.com/wallpapers/atlantic-cod-pic.jpg);
+    color: rgb(2,0,36);
+    background: rgba(0, 0, 0, .3) url('http://ru.fishwallpapers.com/wallpapers/atlantic-cod-pic.jpg');
     background-size: cover;
+    background-blend-mode: darken;
+    text-align: center;
 }
   
-.main-text {
+.header {
   text-align: center;
   font-size: 100px;
-  color: azure;
   letter-spacing: 15px;
+  background: -webkit-linear-gradient(#eee, #32de84);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#000, #32de84);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
