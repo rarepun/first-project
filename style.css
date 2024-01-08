@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    background-image: url(http://ru.fishwallpapers.com/wallpapers/atlantic-cod-pic.jpg);
+    background-size: cover;
+}
+  
+.main-text {
+  text-align: center;
+  font-size: 100px;
+  color: azure;
+  letter-spacing: 15px;
+}
