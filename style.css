@@ -7,6 +7,7 @@ body {
     background: rgba(0, 0, 0, .3) url('http://ru.fishwallpapers.com/wallpapers/atlantic-cod-pic.jpg');
     background-size: cover;
     background-blend-mode: darken;
+    background-clip: initial;
     text-align: center;
 }
   
@@ -15,6 +16,7 @@ body {
   font-size: 100px;
   letter-spacing: 15px;
   background: -webkit-linear-gradient(#eee, #32de84);
+  background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -23,6 +25,7 @@ body {
   text-align: center;
   font-size: 50px;
   background: -webkit-linear-gradient(#000, #32de84);
+  background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
